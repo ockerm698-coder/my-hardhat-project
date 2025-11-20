@@ -8,7 +8,7 @@ async function main() {
 
   const tx = await signer.sendTransaction({
     to: zeroAddress,
-    value: ethers.parseEther("0.001")   // 你想烧毁的数量
+    value: ethers.parseEther("0.000000001")   // 你想烧毁的数量
   });
 
   console.log("交易已发送，等待确认...");
